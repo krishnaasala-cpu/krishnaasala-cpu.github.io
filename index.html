@@ -1,196 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
-    <link rel="stylesheet" href="css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="css/plugins/fancybox.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <title>4Craft Studios | Your Complete Content Partner</title>
 
-    <title>4Craft Studios | Your Complete Content Partner</title>
+  <!-- BASIC CSS (NO ANIMATION, NO JS DEPENDENCY) -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #0b0b0b;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #00ffd5;
+      text-decoration: none;
+    }
+
+    header {
+      padding: 20px 40px;
+      border-bottom: 1px solid #222;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      padding: 120px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero span {
+      color: #00ffd5;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin-bottom: 40px;
+      color: #cccccc;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      border: 1px solid #00ffd5;
+      margin-right: 15px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00ffd5;
+      color: #000;
+    }
+
+    section {
+      padding: 100px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      max-width: 800px;
+      color: #cccccc;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .service-box {
+      border: 1px solid #222;
+      padding: 25px;
+      transition: 0.3s;
+    }
+
+    .service-box:hover {
+      border-color: #00ffd5;
+    }
+
+    footer {
+      padding: 60px 40px;
+      border-top: 1px solid #222;
+      text-align: center;
+      color: #888;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="mil-wrapper" id="top">
+  <!-- HEADER -->
+  <header>
+    <div class="logo">4Craft Studios</div>
+  </header>
 
-    <!-- menu -->
-    <div class="mil-frame">
-        <div class="mil-frame-top">
-            <a href="home-1.html" class="mil-logo">4Craft</a>
-            <div class="mil-menu-btn"><span></span></div>
-        </div>
+  <!-- HERO -->
+  <div class="hero">
+    <h1>
+      Building Powerful <br />
+      <span>Digital Content</span>
+    </h1>
+
+    <p>
+      4Craft Studios is your complete content partner for music distribution,
+      YouTube growth, digital branding, and creative production.
+    </p>
+
+    <a href="#services" class="btn">Our Services</a>
+    <a href="#about" class="btn">About Us</a>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About <span style="color:#00ffd5;">4Craft Studios</span></h2>
+
+    <p>
+      We are a professional digital content studio helping creators, artists,
+      and brands grow online. Our focus is on quality, strategy, and long-term
+      success in the digital space.
+    </p>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Our <span style="color:#00ffd5;">Services</span></h2>
+
+    <div class="services">
+      <div class="service-box">
+        <h3>Music Distribution</h3>
+        <p>Global release, copyright safety, monetization & platform support.</p>
+      </div>
+
+      <div class="service-box">
+        <h3>YouTube Growth</h3>
+        <p>Channel setup, SEO, thumbnails, content strategy & audience growth.</p>
+      </div>
+
+      <div class="service-box">
+        <h3>Digital Branding</h3>
+        <p>Professional branding for creators, artists & businesses.</p>
+      </div>
+
+      <div class="service-box">
+        <h3>Creative Production</h3>
+        <p>Design, promotional creatives & digital content production.</p>
+      </div>
     </div>
+  </section>
 
-    <!-- content -->
-    <div class="mil-content">
-        <div class="mil-main-transition">
-
-            <!-- HERO -->
-            <section class="mil-banner mil-dark-bg">
-                <div class="container">
-                    <div class="mil-banner-content mil-up">
-
-                        <h1 class="mil-muted mil-mb-60">
-                            Building Powerful <br>
-                            <span class="mil-thin">Digital Content</span>
-                        </h1>
-
-                        <p class="mil-light-soft mil-mb-60">
-                            4Craft Studios is your complete content partner for music distribution,
-                            YouTube growth, digital branding, and creative production.
-                        </p>
-
-                        <a href="services.html" class="mil-button mil-arrow-place mil-btn-space">
-                            <span>Our Services</span>
-                        </a>
-
-                        <a href="portfolio-1.html" class="mil-link mil-muted mil-arrow-place">
-                            <span>View Work</span>
-                        </a>
-
-                    </div>
-                </div>
-            </section>
-
-            <!-- ABOUT -->
-            <section id="about">
-                <div class="container mil-p-120-30">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-lg-6">
-
-                            <h2 class="mil-up mil-mb-60">
-                                About <span class="mil-thin">4Craft Studios</span>
-                            </h2>
-
-                            <p class="mil-up mil-mb-30">
-                                We are a professional digital content studio helping creators,
-                                artists, and brands grow online.
-                            </p>
-
-                            <p class="mil-up mil-mb-60">
-                                Our expertise includes music distribution, YouTube channel
-                                management, thumbnail design, branding, and digital promotion.
-                                We focus on quality, strategy, and long-term growth.
-                            </p>
-
-                        </div>
-
-                        <div class="col-lg-5">
-                            <div class="mil-about-photo">
-                                <img src="img/photo/1.jpg" alt="4Craft Studios">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SERVICES -->
-            <section class="mil-dark-bg">
-                <div class="container mil-p-120-0">
-
-                    <h2 class="mil-center mil-muted mil-mb-90">
-                        Our <span class="mil-thin">Services</span>
-                    </h2>
-
-                    <div class="row mil-services-grid m-0">
-
-                        <div class="col-md-6 col-lg-3 mil-services-grid-item">
-                            <div class="mil-service-card-sm">
-                                <h5 class="mil-muted mil-mb-30">Music Distribution</h5>
-                                <p class="mil-light-soft">
-                                    Release your music globally with proper rights, monetization,
-                                    and platform support.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-3 mil-services-grid-item">
-                            <div class="mil-service-card-sm">
-                                <h5 class="mil-muted mil-mb-30">YouTube Growth</h5>
-                                <p class="mil-light-soft">
-                                    Channel setup, content strategy, thumbnails, SEO,
-                                    and audience growth.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-3 mil-services-grid-item">
-                            <div class="mil-service-card-sm">
-                                <h5 class="mil-muted mil-mb-30">Digital Branding</h5>
-                                <p class="mil-light-soft">
-                                    Professional brand identity for creators, artists,
-                                    and businesses.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-3 mil-services-grid-item">
-                            <div class="mil-service-card-sm">
-                                <h5 class="mil-muted mil-mb-30">Creative Production</h5>
-                                <p class="mil-light-soft">
-                                    Visual design, promotional creatives,
-                                    and content production.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!-- FOOTER -->
-            <footer class="mil-dark-bg">
-                <div class="container mil-p-120-60">
-                    <div class="row justify-content-between">
-
-                        <div class="col-md-4 mil-mb-60">
-                            <div class="mil-muted mil-logo mil-mb-30">4Craft Studios</div>
-                            <p class="mil-light-soft">
-                                Your Complete Content Partner
-                            </p>
-                        </div>
-
-                        <div class="col-md-6 mil-mb-60">
-                            <nav class="mil-footer-menu">
-                                <ul>
-                                    <li><a href="home-1.html">Home</a></li>
-                                    <li><a href="portfolio-1.html">Portfolio</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-
-                    </div>
-
-                    <p class="mil-light-soft">
-                        © 2026 4Craft Studios. All Rights Reserved.
-                    </p>
-                </div>
-            </footer>
-
-        </div>
-    </div>
-
-</div>
-
-<!-- scripts -->
-<script src="js/plugins/jquery.min.js"></script>
-<script src="js/plugins/swup.min.js"></script>
-<script src="js/plugins/swiper.min.js"></script>
-<script src="js/plugins/fancybox.min.js"></script>
-<script src="js/plugins/gsap.min.js"></script>
-<script src="js/plugins/smooth-scroll.js"></script>
-<script src="js/plugins/ScrollTrigger.min.js"></script>
-<script src="js/plugins/ScrollTo.min.js"></script>
-<script src="js/main.js"></script>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 4Craft Studios. All Rights Reserved.</p>
+    <p>Your Complete Content Partner</p>
+  </footer>
 
 </body>
 </html>
