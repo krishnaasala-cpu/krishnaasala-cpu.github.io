@@ -4227,4 +4227,8 @@ html.is-animating .mil-menu-frame {
   opacity: 0;
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
+}/* FORCE CONTENT VISIBLE */
+.mil-up {
+  opacity: 1 !important;
+  transform: none !important;
 }
